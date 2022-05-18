@@ -20,6 +20,15 @@
     font-size: 1.7rem;
 }
 
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+
+}
+
 .logo {
     color: var(--green);
 }
@@ -37,22 +46,34 @@
 }
 
 .btn-contact {
-    background-color: var(--green);
+    background-color: transparent;
+    color: var(--green);
+    border: 2px solid var(--green);
     /* padding: 0.8rem; */
     padding: 0.5rem 0.8rem;
     border-radius: 2rem;
     font-weight: bold;
 }
 
-.header {
+.btn-contact:hover {
+    background-color: var(--green);
+    color: #fff;
+    
+    transition: all .3s ease-in;
+}
+
+.text-area {
     height: 100vh;
-    background-image: url("./images/bgI-2.jpg");
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.header {
+    background-image: url("./images/bgI-3.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 100vh;
 }
 
-.textArea {
-    height: 100vh;
-   
-}
+
