@@ -1,0 +1,29 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* font-family: 'Fredoka One', cursive; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #242122;
+    --secondary: #1d9d8f;
+}
+
+span {
+    font-size: 1.7rem;
+}
+
+#travel {
+    color: green;
+    font-family: 'Fredoka One', cursive;
+}
+
+#bd {
+    color: red;
+    font-family: 'Fredoka One', cursive;
+}
