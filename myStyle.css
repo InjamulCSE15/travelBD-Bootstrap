@@ -88,3 +88,13 @@
     height: 40vh;
     background-color: rgba(0, 0, 0, 0.4);
 }
+
+/* About TravelBD  */
+
+#Travel {
+    color: var(--green);
+}
+
+#BD {
+    color: red;
+}
