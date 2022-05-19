@@ -76,4 +76,15 @@
     height: 100vh;
 }
 
+.image-hero {
+    background-image: url("./images/bgI-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+}
 
+.overlay {
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
