@@ -106,3 +106,21 @@
 .img-card {
     height: 50vh;
 }
+
+.c-1 {
+ position: absolute;
+ top: 50%;
+ right: 0;
+ left: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color: white;
+}
+
+.overlay-c {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 50vh;
+    position: absolute;
+    top: 0;
+}
