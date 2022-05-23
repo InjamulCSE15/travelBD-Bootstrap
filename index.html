@@ -240,21 +240,43 @@
     <!-- Contact Us -->
     <section>
       <div class="container">
-        <h1>Contact Us</h1>
-        <form action="">
-          <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" name="name" class="form-control input" placeholder="Name">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <form action="">
+            <div  class="row g-2">
+              <div class="col-md-6">
+                <label for="validationDefaultUsername" class="form-label">Name</label>
+                <input type="text" id="validationDefaultUsername" class="form-control" placeholder="Name" required>
+              </div>
+          
+          <div class="col-md-6">
+            <label for="validationDefaultEmail" class="form-label">Email</label>
+            <input type="email"name="email" class="form-control" id="validationDefaultEmail" placeholder="name@mail.com" required>
           </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email"name="email" class="form-control input" placeholder="name@mail.com">
+            </div>
+            
+
+        <div class="row mt-2">
+          <div class="col-md-12">
+            <label for="inputSubject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="inputSubject" required>
           </div>
-          <div class="mb-3">
+          
+        </div>
+    
+        <div class="row mt-2 mb-3">
+          <div class="col-md-12">
+
             <label for="message" class="form-label">Message</label>
-            <textarea type="text" class="form-control input" placeholder="Enter your message..."></textarea>
+            <textarea type="text" rows="5" class="form-control" placeholder="Enter your message..." required></textarea>
           </div>
-        </form>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-lg btn-success "><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+        </div>
+      </form>
+        </div>
+        
       </div>
     </section> 
 
