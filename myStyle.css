@@ -146,8 +146,6 @@ Contact Us
 }
 
 
-
-
 /* =============
 Footer
 ================ */
@@ -165,4 +163,33 @@ Footer
     color: #09a709;
     font-weight: 600;
     transition: all .3s ease-in;
+    padding-left: 0.5rem;
 }
+
+.link-mail {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.link-mail:hover {
+    color: rgb(230, 24, 24);
+    transition: all .3s ease;
+}
+
+.fa-envelope {
+    color: rgb(230, 24, 24);
+}
+
+.fa-whatsapp {
+    color: #09a709;
+}
+
+/* === Back To Top Button === */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
